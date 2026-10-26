@@ -29,6 +29,18 @@ const TOPE_MOTO = 12000;
 
 function tarifaPorHora(vehiculo) {
     // Tu código aquí
+    const tiempo= 1
+    const carro = TARIFA_CARRO*tiempo;
+    const moto = TARIFA_MOTO * tiempo;
+    const bicicleta = 0;
+    if (carro < 60)
+    return TARIFA_CARRO
+    else (moto<60)
+    return TARIFA_MOTO
+    else(bicicleta>=0)
+    return ("Parquea gratis")
+
+
 }
 
 // ============================================================
